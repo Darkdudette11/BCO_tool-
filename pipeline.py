@@ -1,0 +1,1 @@
+grep -o "the" new.txt| wc -l>numbernew.txt | sed -i 's/the/new/g' new.txt| grep -o "new" new.txt| wc -w| grep -o "the" new.txt | wc -l>numbernew.txt
